@@ -1,0 +1,142 @@
+----------------------------------------------------------------
+Sun May 12 17:08:16 CEST 2024:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.16.1.1 - (1901046): instance a816c00e-018f-6d58-ef93-000002f03280 
+on database directory /Users/daniel/Local/SegundoCuatri/TAW/Exámenes/ejercicioLibros/librosHecho/LibrosWebAppSpring/libros with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@1dbd16a6 
+Loaded from file:/Users/daniel/.m2/repository/org/apache/derby/derby/10.16.1.1/derby-10.16.1.1.jar
+java.vendor=Amazon.com Inc.
+java.runtime.version=17.0.11+9-LTS
+user.dir=/Users/daniel/Local/SegundoCuatri/TAW/Exámenes/ejercicioLibros/librosHecho/LibrosWebAppSpring
+os.name=Mac OS X
+os.arch=aarch64
+os.version=14.4.1
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+
+------------  Begin Shutdown Error Stack -------------
+
+ERROR XSLAQ: Cannot create log file at directory /Users/daniel/Local/SegundoCuatri/TAW/Exámenes/ejercicioLibros/librosHecho/LibrosWebAppSpring/libros/log.
+	at org.apache.derby.shared.common.error.StandardException.newException(StandardException.java:299)
+	at org.apache.derby.shared.common.error.StandardException.newException(StandardException.java:294)
+	at org.apache.derby.impl.store.raw.log.LogToFile.getLogDirectory(LogToFile.java:2782)
+	at org.apache.derby.impl.store.raw.log.LogToFile.getControlFileName(LogToFile.java:2815)
+	at org.apache.derby.impl.store.raw.log.LogToFile.checkpointWithTran(LogToFile.java:1750)
+	at org.apache.derby.impl.store.raw.log.LogToFile.checkpoint(LogToFile.java:1503)
+	at org.apache.derby.impl.store.raw.RawStore.stop(RawStore.java:362)
+	at org.apache.derby.impl.services.monitor.TopService.stop(TopService.java:443)
+	at org.apache.derby.impl.services.monitor.TopService.shutdown(TopService.java:394)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.shutdown(BaseMonitor.java:219)
+	at org.apache.derby.impl.services.monitor.FileMonitor.shutdown(FileMonitor.java:45)
+	at org.apache.derby.impl.db.DatabaseContextImpl.cleanupOnError(DatabaseContextImpl.java:77)
+	at org.apache.derby.iapi.services.context.ContextManager.cleanupOnError(ContextManager.java:347)
+	at org.apache.derby.impl.jdbc.TransactionResourceImpl.cleanupOnError(TransactionResourceImpl.java:469)
+	at org.apache.derby.impl.jdbc.TransactionResourceImpl.handleException(TransactionResourceImpl.java:351)
+	at org.apache.derby.impl.jdbc.EmbedConnection.handleException(EmbedConnection.java:2400)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(EmbedConnection.java:614)
+	at org.apache.derby.iapi.jdbc.InternalDriver.getNewEmbedConnection(InternalDriver.java:630)
+	at org.apache.derby.iapi.jdbc.InternalDriver$LoginCallable.call(InternalDriver.java:400)
+	at org.apache.derby.iapi.jdbc.InternalDriver$LoginCallable.call(InternalDriver.java:376)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+
+------------  End Shutdown Error Stack -------------
+
+
+------------  Begin Shutdown Error Stack -------------
+
+ERROR XSLAQ: Cannot create log file at directory /Users/daniel/Local/SegundoCuatri/TAW/Exámenes/ejercicioLibros/librosHecho/LibrosWebAppSpring/libros/log.
+	at org.apache.derby.shared.common.error.StandardException.newException(StandardException.java:299)
+	at org.apache.derby.shared.common.error.StandardException.newException(StandardException.java:294)
+	at org.apache.derby.impl.store.raw.log.LogToFile.getLogDirectory(LogToFile.java:2782)
+	at org.apache.derby.impl.store.raw.log.LogToFile.getControlFileName(LogToFile.java:2815)
+	at org.apache.derby.impl.store.raw.log.LogToFile.checkpointWithTran(LogToFile.java:1750)
+	at org.apache.derby.impl.store.raw.log.LogToFile.checkpoint(LogToFile.java:1503)
+	at org.apache.derby.impl.store.raw.RawStore.stop(RawStore.java:362)
+	at org.apache.derby.impl.services.monitor.TopService.stop(TopService.java:443)
+	at org.apache.derby.impl.services.monitor.TopService.shutdown(TopService.java:394)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.shutdown(BaseMonitor.java:219)
+	at org.apache.derby.impl.services.monitor.FileMonitor.shutdown(FileMonitor.java:45)
+	at org.apache.derby.impl.db.DatabaseContextImpl.cleanupOnError(DatabaseContextImpl.java:77)
+	at org.apache.derby.iapi.services.context.ContextManager.cleanupOnError(ContextManager.java:347)
+	at org.apache.derby.impl.jdbc.TransactionResourceImpl.cleanupOnError(TransactionResourceImpl.java:469)
+	at org.apache.derby.impl.jdbc.TransactionResourceImpl.handleException(TransactionResourceImpl.java:351)
+	at org.apache.derby.impl.jdbc.EmbedConnection.handleException(EmbedConnection.java:2400)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(EmbedConnection.java:614)
+	at org.apache.derby.iapi.jdbc.InternalDriver.getNewEmbedConnection(InternalDriver.java:630)
+	at org.apache.derby.iapi.jdbc.InternalDriver$LoginCallable.call(InternalDriver.java:400)
+	at org.apache.derby.iapi.jdbc.InternalDriver$LoginCallable.call(InternalDriver.java:376)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+
+------------  End Shutdown Error Stack -------------
+
+
+------------  Begin Shutdown Error Stack -------------
+
+ERROR XSLAQ: Cannot create log file at directory /Users/daniel/Local/SegundoCuatri/TAW/Exámenes/ejercicioLibros/librosHecho/LibrosWebAppSpring/libros/log.
+	at org.apache.derby.shared.common.error.StandardException.newException(StandardException.java:299)
+	at org.apache.derby.shared.common.error.StandardException.newException(StandardException.java:294)
+	at org.apache.derby.impl.store.raw.log.LogToFile.getLogDirectory(LogToFile.java:2782)
+	at org.apache.derby.impl.store.raw.log.LogToFile.getControlFileName(LogToFile.java:2815)
+	at org.apache.derby.impl.store.raw.log.LogToFile.checkpointWithTran(LogToFile.java:1750)
+	at org.apache.derby.impl.store.raw.log.LogToFile.checkpoint(LogToFile.java:1503)
+	at org.apache.derby.impl.store.raw.RawStore.stop(RawStore.java:362)
+	at org.apache.derby.impl.services.monitor.TopService.stop(TopService.java:443)
+	at org.apache.derby.impl.services.monitor.TopService.shutdown(TopService.java:394)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.shutdown(BaseMonitor.java:219)
+	at org.apache.derby.impl.services.monitor.FileMonitor.shutdown(FileMonitor.java:45)
+	at org.apache.derby.impl.db.DatabaseContextImpl.cleanupOnError(DatabaseContextImpl.java:77)
+	at org.apache.derby.iapi.services.context.ContextManager.cleanupOnError(ContextManager.java:347)
+	at org.apache.derby.impl.jdbc.TransactionResourceImpl.cleanupOnError(TransactionResourceImpl.java:469)
+	at org.apache.derby.impl.jdbc.TransactionResourceImpl.handleException(TransactionResourceImpl.java:351)
+	at org.apache.derby.impl.jdbc.EmbedConnection.handleException(EmbedConnection.java:2400)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(EmbedConnection.java:614)
+	at org.apache.derby.iapi.jdbc.InternalDriver.getNewEmbedConnection(InternalDriver.java:630)
+	at org.apache.derby.iapi.jdbc.InternalDriver$LoginCallable.call(InternalDriver.java:400)
+	at org.apache.derby.iapi.jdbc.InternalDriver$LoginCallable.call(InternalDriver.java:376)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+
+------------  End Shutdown Error Stack -------------
+
+----------------------------------------------------------------
+Sun May 12 17:10:20 CEST 2024:
+Shutting down instance a816c00e-018f-6d58-ef93-000002f03280 on database directory /Users/daniel/Local/SegundoCuatri/TAW/Exámenes/ejercicioLibros/librosHecho/LibrosWebAppSpring/libros with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@1dbd16a6 
+Sun May 12 17:10:21 CEST 2024 Thread[Thread-19,5,main] Cleanup action starting
+ERROR XBM0I: Directory libros cannot be removed.
+	at org.apache.derby.shared.common.error.StandardException.newException(StandardException.java:299)
+	at org.apache.derby.shared.common.error.StandardException.newException(StandardException.java:294)
+	at org.apache.derby.iapi.services.monitor.Monitor.removePersistentService(Monitor.java:663)
+	at org.apache.derby.impl.jdbc.EmbedConnection.removePersistentService(EmbedConnection.java:4014)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(EmbedConnection.java:620)
+	at org.apache.derby.iapi.jdbc.InternalDriver.getNewEmbedConnection(InternalDriver.java:630)
+	at org.apache.derby.iapi.jdbc.InternalDriver$LoginCallable.call(InternalDriver.java:400)
+	at org.apache.derby.iapi.jdbc.InternalDriver$LoginCallable.call(InternalDriver.java:376)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Cleanup action completed
+Sun May 12 17:10:21 CEST 2024 Thread[Thread-19,5,main] Cleanup action starting
+ERROR XBM0I: Directory libros cannot be removed.
+	at org.apache.derby.shared.common.error.StandardException.newException(StandardException.java:299)
+	at org.apache.derby.shared.common.error.StandardException.newException(StandardException.java:294)
+	at org.apache.derby.iapi.services.monitor.Monitor.removePersistentService(Monitor.java:663)
+	at org.apache.derby.impl.jdbc.EmbedConnection.removePersistentService(EmbedConnection.java:4014)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(EmbedConnection.java:620)
+	at org.apache.derby.iapi.jdbc.InternalDriver.getNewEmbedConnection(InternalDriver.java:630)
+	at org.apache.derby.iapi.jdbc.InternalDriver$LoginCallable.call(InternalDriver.java:400)
+	at org.apache.derby.iapi.jdbc.InternalDriver$LoginCallable.call(InternalDriver.java:376)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Cleanup action completed
