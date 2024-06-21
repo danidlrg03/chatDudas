@@ -1,0 +1,10 @@
+INSERT INTO TAW.GRUPO_MUSCULAR (grupo_muscular_id, nombre) VALUES (1, 'Upper body');
+INSERT INTO TAW.GRUPO_MUSCULAR (grupo_muscular_id, nombre) VALUES (2, 'Lower body');
+INSERT INTO TAW.GRUPO_MUSCULAR (grupo_muscular_id, nombre) VALUES (3, 'Core');
+INSERT INTO TAW.GRUPO_MUSCULAR (grupo_muscular_id, nombre) VALUES (4, 'Back');
+INSERT INTO TAW.GRUPO_MUSCULAR (grupo_muscular_id, nombre) VALUES (5, 'Arms');
+INSERT INTO TAW.GRUPO_MUSCULAR (grupo_muscular_id, nombre) VALUES (6, 'Upper body');
+INSERT INTO TAW.GRUPO_MUSCULAR (grupo_muscular_id, nombre) VALUES (7, 'Lower body');
+INSERT INTO TAW.GRUPO_MUSCULAR (grupo_muscular_id, nombre) VALUES (8, 'Core');
+INSERT INTO TAW.GRUPO_MUSCULAR (grupo_muscular_id, nombre) VALUES (9, 'Back');
+INSERT INTO TAW.GRUPO_MUSCULAR (grupo_muscular_id, nombre) VALUES (10, 'Arms');

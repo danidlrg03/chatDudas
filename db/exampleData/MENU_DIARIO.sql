@@ -1,0 +1,10 @@
+INSERT INTO TAW.MENU_DIARIO (menu_id, dia_semana, dieta_id) VALUES (1, 1, 1);
+INSERT INTO TAW.MENU_DIARIO (menu_id, dia_semana, dieta_id) VALUES (2, 2, 1);
+INSERT INTO TAW.MENU_DIARIO (menu_id, dia_semana, dieta_id) VALUES (3, 3, 2);
+INSERT INTO TAW.MENU_DIARIO (menu_id, dia_semana, dieta_id) VALUES (4, 4, 3);
+INSERT INTO TAW.MENU_DIARIO (menu_id, dia_semana, dieta_id) VALUES (5, 5, 3);
+INSERT INTO TAW.MENU_DIARIO (menu_id, dia_semana, dieta_id) VALUES (6, 1, 1);
+INSERT INTO TAW.MENU_DIARIO (menu_id, dia_semana, dieta_id) VALUES (7, 2, 1);
+INSERT INTO TAW.MENU_DIARIO (menu_id, dia_semana, dieta_id) VALUES (8, 3, 2);
+INSERT INTO TAW.MENU_DIARIO (menu_id, dia_semana, dieta_id) VALUES (9, 4, 3);
+INSERT INTO TAW.MENU_DIARIO (menu_id, dia_semana, dieta_id) VALUES (10, 5, 3);

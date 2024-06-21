@@ -1,0 +1,10 @@
+INSERT INTO TAW.SESION (sesion_id, dia_semana, rutina_id) VALUES (1, 1, 1);
+INSERT INTO TAW.SESION (sesion_id, dia_semana, rutina_id) VALUES (2, 2, 2);
+INSERT INTO TAW.SESION (sesion_id, dia_semana, rutina_id) VALUES (3, 3, 1);
+INSERT INTO TAW.SESION (sesion_id, dia_semana, rutina_id) VALUES (4, 4, 2);
+INSERT INTO TAW.SESION (sesion_id, dia_semana, rutina_id) VALUES (5, 5, 1);
+INSERT INTO TAW.SESION (sesion_id, dia_semana, rutina_id) VALUES (6, 1, 1);
+INSERT INTO TAW.SESION (sesion_id, dia_semana, rutina_id) VALUES (7, 2, 2);
+INSERT INTO TAW.SESION (sesion_id, dia_semana, rutina_id) VALUES (8, 3, 1);
+INSERT INTO TAW.SESION (sesion_id, dia_semana, rutina_id) VALUES (9, 4, 2);
+INSERT INTO TAW.SESION (sesion_id, dia_semana, rutina_id) VALUES (10, 5, 1);
